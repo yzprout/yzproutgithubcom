@@ -2,9 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>{{ page.title }} &middot; tomafro.net</title>{% if page.description %}
-  <meta name="description" content="{{ page.description }}"/>{% endif %}{% if page.robots %}
-  <meta name="robots" content="{{ page.robots }}"/>{% endif %}
+  <title>first post test &middot; tomafro.net</title>
   <meta name="verify-v1" content="ADnFYWq1MeVbf8+qNPe/GZTvcEsDgOCgWTWrUIPakz8=" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1" />
   <script type="text/javascript" src="http://use.typekit.com/brv6igt.js"></script>
@@ -12,8 +10,8 @@
   <link rel="stylesheet" href="/css/style.css" type="text/css" />
   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
   <link rel="alternate" type="application/atom+xml" href="http://tomafro.net/atom.xml" />
-  <link rel="canonical" href="http://yzprout.github.com{{ page.url }}"/>
-  {% unless page.hide_analytics %}
+  <link rel="canonical" href="http://yzprout.github.com/2011/09/first-test"/>
+  
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-1103395-2']);
@@ -27,17 +25,18 @@
       document.documentElement.firstChild.appendChild(ga);
     })();
   </script>
-  {% endunless %}
+  
   <meta name="viewport" content="width=850" />
   <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css"/>
 </head>
 <body>  
   <div id="container">
     <div id="header" class="menubar">
-      {% include menubar.html %}
+      <a class="name" href="/">yuen's blog</a> &middot; <a href="/about">about</a> &middot; <a href="http://github.com/yzprout">on github</a> &middot; <a href="http://weibo.com/xxxxxxxvxxxxxxxxxxxx">on t.sina</a>
+
     </div>
     <div id="main">
-      {{ content }}
+      <p>this is a jekyll test</p>
     </div>
   </div>
 </body>	

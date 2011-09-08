@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Tom Ward's blog"
-description: "Personal blog of Tom Ward, in which he writes about ruby, rails and web development, as well as other random ephemera"
+title: "Yuen's blog"
+description: "Personal blog of Yuen,high-performance-funs"
 ---
 {% for page in site.posts limit:5 %}
 {% assign body = page.content %}
@@ -9,5 +9,7 @@ description: "Personal blog of Tom Ward, in which he writes about ruby, rails an
 {% endfor %}
 <div class="related">
 <h3>More Posts</h3>
-<p>{% for post in site.posts offset:5 %}<a href="{{ post.url }}">{{ post.title }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
+<p>{% for post in site.posts offset:5 %}
+<a href="{{ post.url }}">{{ post.title }}</a>
+{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
 </div>

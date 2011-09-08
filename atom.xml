@@ -4,25 +4,25 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>Tom Ward</title>
- <link href="http://tomafro.net/atom.xml" rel="self"/>
+ <link href="http://yzprout.github.com/atom.xml" rel="self"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tomafro.net/</id>
+ <id>http://yzprout.github.com/</id>
  <author>
-   <name>Tom Ward</name>
-   <email>tom@popdog.net</email>
+   <name>Yuen</name>
+   <email>yzprout@gmail.com</email>
  </author>
  {% for post in site.posts limit:10 %}
  <entry>
-   <id>http://tomafro.net{{ post.id }}</id>
-   <link href="http://tomafro.net{{ post.url }}"/>
+   <id>http://yzprout.github.com{{ post.id }}</id>
+   <link href="http://yzprout.github.com{{ post.url }}"/>
    <title>{{ post.title }}</title>
    <author>
-     <name>Tom Ward</name>
-     <email>tom@popdog.net</email>
+     <name>Yuen</name>
+     <email>yzprout@gmail.com</email>
    </author>
    <content type="html">{{ post.content | xml_escape }}</content>{% for tag in post.categories %}
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <category scheme="http://tomafro.net/tags/" term="{{ tag }}" label="{{ tag }}" />{% endfor %}
+   <category scheme="http://yzprout.github.com/tags/" term="{{ tag }}" label="{{ tag }}" />{% endfor %}
  </entry>
  {% endfor %}
 </feed>
