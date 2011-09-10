@@ -1,7 +1,0 @@
----
-layout: post
-title: "404: Page not found!"
-hide_meta: true
-hide_analytics: true
----
-single boy single boy.single all the way...
