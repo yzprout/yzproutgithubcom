@@ -1,0 +1,9 @@
+markdown: rdiscount
+pygments: true
+
+#
+# site configuration
+#
+url: http://yzprout.github.com
+title: "Yuen's Notebook"
+author: yuen
