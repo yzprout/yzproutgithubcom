@@ -6,7 +6,7 @@ First In First Out
 
 
 ***
-**2011-09-11**
+2011-09-11
 * 理解libevent
 * mac下编译nginx
 * 总结归类这些天关于环境的配置
