@@ -2,5 +2,9 @@
 layout: about
 title: ToDo List
 ---
+First In First Out
 
- * <strike>Hello,World</strike>
+* 理解libevent
+* mac下编译nginx
+* 总结归类这些天关于环境的配置
+* <strike>Hello,World</strike>
