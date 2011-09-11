@@ -1,5 +1,5 @@
 ---
-laytou: post
+layout: post
 title: mac os x development environment configuration
 ---
 新机器到手，2011版macbook air。这些天都在不停地捣腾着它，从linux转到这下面还真是有些不习惯。
