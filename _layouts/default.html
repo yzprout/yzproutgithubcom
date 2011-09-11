@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>{{ page.title }} | Yuen's Notebook</title>
 
     <link rel="shortcut icon" href="/favicon.ico">
 
@@ -44,13 +43,14 @@
           <li>
             <span class="date">{{ post.date | date_to_string }}</span>
             &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-            {% endfor %}			
+            {% endfor %}		
         </ul>
 
         <strong>
-          <a href="/allposts.html">all posts</a>  &nbsp;|&nbsp; 
-          <a href="/about.html">about</a>  &nbsp;|&nbsp; 
-          <a href="http://weibo.com/xxxxxxxvxxxxxxxxxxxx">t.sina</a>
+          <a href="/allposts.html">All Posts</a>  &nbsp;|&nbsp; 
+          <a href="/todo.html">ToDo List</a>  &nbsp;|&nbsp; 
+          <a href="http://weibo.com/xxxxxxxvxxxxxxxxxxxx">t.sina</a>  &nbsp;|&nbsp; 
+          <a href="/about.html">About</a> 
         </strong>
       </div>
 
