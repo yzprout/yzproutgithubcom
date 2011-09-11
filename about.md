@@ -1,6 +1,6 @@
 ---
-layout: post
+layout: about
 title: About
 ---
-* test
-** test
+* test1
+* test2
