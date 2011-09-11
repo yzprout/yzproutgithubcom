@@ -7,6 +7,8 @@ title: About
 
 . 小人物实现小理想.
 
+. email: yzprout@gmail.com
+
 ***
 
 * 2008-2012 郑州大学
