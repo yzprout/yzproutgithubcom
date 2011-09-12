@@ -31,7 +31,13 @@ export PS1="[\e[0;33m]\u[\e[0m]@[\e[34m]\h [\e[32m]\w[\e[35m] \n[\e[31m]\$>>[\e[
 
 除去颜色就只剩下:
 
-{% highlight bash%} export PS1="\u@\h \w \n \$>> " 效果图: yuen@enmatoMacBook-Air /usr/local $>> {% endhighlight% %}
+{% highlight bash%} export PS1="\u@\h \w \n \$>> " 
+
+效果图: 
+yuen@enmatoMacBook-Air /usr/local 
+$>>
+
+ {% endhighlight% %}
 
 这里有一个较为详细的配置说明: Color Bash Prompt
 
