@@ -31,7 +31,8 @@ export PS1="[\e[0;33m]\u[\e[0m]@[\e[34m]\h [\e[32m]\w[\e[35m] \n[\e[31m]\$>>[\e[
 
 除去颜色就只剩下:
 
-{% highlight bash%} export PS1="\u@\h \w \n \$>> " 
+{% highlight bash%} 
+export PS1="\u@\h \w \n \$>> " 
 
 效果图: 
 yuen@enmatoMacBook-Air /usr/local 
