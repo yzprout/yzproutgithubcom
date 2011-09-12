@@ -42,3 +42,6 @@ $>>
 [Color Bash Prompt](https://wiki.archlinux.org/index.php/Color_Bash_Prompt)
 
 中秋快乐!  ^_^
+
+EOF
+
