@@ -7,10 +7,9 @@ title: color bash configuartion
 
 作为开发使用最多的就是bash了。
 
-"  
+{% highlight %}
 export PS1="[\e[0;33m]\u[\e[0m]@[\e[34m]\h [\e[32m]\w[\e[35m] \n[\e[31m]\$>>[\e[0m] " ;
-
-"  
+{% endhighlight %}
 
 
 
