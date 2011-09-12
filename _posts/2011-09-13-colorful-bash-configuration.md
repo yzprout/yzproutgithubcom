@@ -1,6 +1,6 @@
 ---
 layout: post
-title: color bash configuartion
+title: colorful bash configuartion
 ---
 
 工欲善其事，必先利其器。
