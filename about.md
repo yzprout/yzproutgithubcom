@@ -7,7 +7,7 @@ title: About
 
 . 小人物实现小理想.
 
-. email: yzprout@gmail.com
+. ![yzprout@gmail.com](/image/mail.png)
 
 ***
 
