@@ -40,7 +40,7 @@ $>>
 
  {% endhighlight% %}
 
-这里有一个较为详细的配置说明: Color Bash Prompt
+这里有一个较为详细的配置说明: [Color Bash Prompt](https://wiki.archlinux.org/index.php/Color_Bash_Prompt)
 
 中秋快乐! ^_^
 
